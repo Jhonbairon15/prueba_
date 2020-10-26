@@ -1,0 +1,185 @@
+body {
+    background: #A4A4A4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #1C1C1C;
+    margin: 3%;
+}
+
+.contenedor {
+    background: #fff url(img/container_pokedex.png);
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+    min-width: 320px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.header {
+    background: #F7819F;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.logo-van {
+    display: flex;
+    justify-content: 10px;
+    align-items: center;
+}
+
+header img {
+    margin-left: 30px;
+}
+
+header h1 {
+    color: #2E2E2E;
+    margin-left: 30px;
+}
+
+.main {
+    width: 95%;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.izquierda {
+    width: 60%;
+    float: left;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    background-color: #A4A4A4;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.main p {
+    font-weight: bold;
+    font-size: large;
+}
+
+.imgs {
+    width: 100%;
+    height: auto;
+    margin: 12px;
+    box-sizing: border-box;
+}
+
+.aside {
+    width: 40%;
+    float: left;
+    left: 20px;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #58D3F7;
+    border-radius: 15px 15px 15px 15px;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.titulo {
+    font-family: "Flexo-Medium", arial, sans-serif;
+    clear: both;
+    color: #fff;
+    float: left;
+    font-size: 80%;
+    margin: 5px 5px;
+}
+
+.valor {
+    font-family: "Flexo-Medium", arial, sans-serif;
+    clear: both;
+    color: #212121;
+    float: left;
+    font-size: 70%;
+    margin: 5px 5px;
+    white-space: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+footer {
+    clear: both;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 110px;
+    padding: 20px;
+    color: #2E2E2E;
+    background: #BDBDBD;
+    align-items: stretch;
+}
+
+footer h1 {
+    width: 15%;
+    display: inline-block;
+    left: 50px;
+    position: relative;
+}
+
+.h1 {
+    width: 50%;
+    float: left;
+}
+
+footer img {
+    width: 17%;
+    display: inline-block;
+    background: #424242;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.imgfo {
+    width: 50%;
+    overflow: hidden;
+}
+
+.primero {
+    float: left;
+}
+
+@media screen and (max-width: 700px) {
+    .izquierda {
+        width: 100%;
+        left: -9px;
+    }
+    .aside {
+        width: 100%;
+        left: -10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .h1 {
+        width: 100%;
+        text-align: center;
+    }
+    .imgfo {
+        width: 100%;
+        text-align: center;
+        position: relative;
+        clear: both;
+        bottom: 20px;
+    }
+    footer {
+        height: 380px;
+    }
+    footer h1 {
+        left: -15px;
+        bottom: 20px;
+    }
+    footer img {
+        width: 35%;
+    }
+}
